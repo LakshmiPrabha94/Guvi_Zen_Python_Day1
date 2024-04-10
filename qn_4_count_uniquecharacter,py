@@ -1,0 +1,35 @@
+#Name: Lakshmi Prabha
+#Program : Count the number of unique characters in a given string.
+#Date : 25 Nov 2023
+#Version: 1
+#Python Version: 3.12.0
+
+def count_unique_characters(input_string):
+   # Initialize a counter for unique characters
+    count = 0
+
+    # Initialize an empty string to store unique characters
+    unique_characters = ""
+
+    # Iterate through each character in the input string using a for loop
+    for char in input_string:
+        # Check if the character is not already in the unique_characters string
+        if char not in unique_characters:
+            # Add the character to the unique_characters string
+            unique_characters += char
+            # Increment the counter for unique characters
+            count += 1
+    return count
+
+# Get input from the User
+input_string = input("Enter a string: ")
+result = count_unique_characters(input_string)
+
+# Display the result
+print("Number of unique characters in the string: ", end="")
+print(result)
+
+
+
+
+

@@ -1,0 +1,23 @@
+#Name: Lakshmi Prabha
+#Program : Program that takes a string and returns true if it is a palindrome false otherwise.
+#Date : 25 Nov 2023
+#Version: 1
+#Python Version: 3.12.0
+
+def reverse_string(input_string):
+    user_input = input_string
+    # Use slicing to reverse the string
+    reversed_str = input_string[::-1]
+    
+    # Print the reversed string
+    print("Reversed String:", reversed_str)
+    if user_input == reversed_str:
+        print("True")
+    else:
+        print("False")
+
+# Get input string from the user
+user_input = input("Enter a string: ")
+
+# Call the function to reverse and print the string
+reverse_string(user_input)
