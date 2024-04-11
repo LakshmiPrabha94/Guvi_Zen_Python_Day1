@@ -2,7 +2,7 @@
 
 This repository contains various Python scripts for string manipulation tasks.
 
-**Scripts:**
+## Scripts:
 
 1. **count_vowels.py:** - Counts total vowels and individual vowel counts in a string.
 
@@ -22,6 +22,15 @@ This repository contains various Python scripts for string manipulation tasks.
    
 9. **count_words.py:** - Counts the number of words in a string.
 
-**Requirements:** Python 3.x
+## Requirements: 
+Python 3.x
+
+## Usage
+
+1. To run the test script:
+   ```
+    python <script_name>.py
+    ```
+   Replace <script_name> with the name of the Python script you want to run.
   
 
